@@ -14,6 +14,7 @@ public class Aluno {
     
     //construtores
     public Aluno() {
+
         super();
     }
     
@@ -30,14 +31,16 @@ public class Aluno {
     }
     
     public String getMatricula() {
-    	return matricula;
+
+        return matricula;
     }
     public void setMatricula(String matricula) {
     	 this.matricula = matricula;
     }
     
     public String getNome() {
-    	return nome;
+
+        return nome;
     }
     public void setnome(String nome) {
 
@@ -45,27 +48,34 @@ public class Aluno {
     }
     
     public String getEndereco() {
-    	return endereco;
+
+        return endereco;
     }
     public void setEndereco(String endereco) {
-    	 this.endereco = endereco;
+
+        this.endereco = endereco;
     }
     
     public String getTelefone() {
-    	return telefone;
+
+        return telefone;
     }
     public void setTelefone(String telefone) {
-    	 this.telefone = telefone;
+
+        this.telefone = telefone;
     }
     
     public Curso getCurso() {
-    	return curso;
+
+        return curso;
     }
     public void setCurso(Curso curso) {
-    	 this.curso = curso;
+
+        this.curso = curso;
     }
     
     public List<Avaliacao> getAvaliacao(List<Avaliacao> Avaliacoes) {
-    	return List<Avaliacao>;    	
+
+        return List<Avaliacao>;
     }
 }
