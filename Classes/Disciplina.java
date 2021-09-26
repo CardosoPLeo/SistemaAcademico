@@ -9,19 +9,20 @@ public class Disciplina {
     private Int cargaHoraria;
     private String ementa;
     private String bibliografia;
-    
     //coleção de disciplinas (0..1..Muitas disciplinas)
     public List<Disciplina> preRequisitos;
     
     
     //construtores
     public Disciplina() {
+
         super();
     }
     
-    public Disciplina(Integer codigo, String descricao, Integer cargaHoraria,
+    public Disciplina(Int codigo, String descricao, Int cargaHoraria,
             String ementa, String bibliografia, 
             List<Disciplina> preRequisitos) {
+
         super();
         this.codigo = codigo;
         this.descricao = descricao;
@@ -32,8 +33,10 @@ public class Disciplina {
     }
     
     public Int getCodigo(){
-    	return codigo;
+
+        return codigo;
     }
+
     public Int setCodigo(Int codigo) {
     	this.codigo = codigo;
     }
@@ -42,23 +45,28 @@ public class Disciplina {
     	return Descricao;
     }
     public String setDescricao(String descricao) {
-    	this.descricao = descicao;
+
+        this.descricao = descicao;
     }
     
     public Int getCargHoraria() {
-    	return cargaHoraria;
+
+        return cargaHoraria;
     }
     
     public Int setCargaHoraria(Int cargaHoraria) {
-    	this.cargaHoraria = cargaHoraria;
+
+        this.cargaHoraria = cargaHoraria;
     }
     
     public Int getBibliografia() {
-    	return bibliografia;
+
+        return bibliografia;
     }
     
     public String setBibliografia(String bibliografia) {
-    	this.bibliografia = bibliografia;
+
+        this.bibliografia = bibliografia;
     }
     
     public List<getPreRequisitos>() {
@@ -66,7 +74,8 @@ public class Disciplina {
     }
     
     public List<preRequisitos> setPreRequisitos(List<preRequisitos>) {
-    	this.preRequisitos = preRequisitos;
+
+        this.preRequisitos = preRequisitos;
     }
     
 }
