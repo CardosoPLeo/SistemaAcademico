@@ -1,6 +1,6 @@
 package SistemaAcademico;
 
-import java.util.Collection;
+import java.util.List;
 
 public class Disciplina {
     
@@ -9,7 +9,6 @@ public class Disciplina {
     private Int cargaHoraria;
     private String ementa;
     private String bibliografia;
-    //coleção de disciplinas (0..1..Muitas disciplinas)
     public List<Disciplina> preRequisitos;
     
     
