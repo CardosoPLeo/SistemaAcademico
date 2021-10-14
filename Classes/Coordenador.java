@@ -1,8 +1,5 @@
 package SistemaAcademico;
 
-import Professor;
-import Turma;
-
 import java.util.List;
 
 public class Coordenador {
@@ -67,7 +64,6 @@ public class Coordenador {
     }
 
     public void alocaProfessorATurma(){
-
 
     }
 }
